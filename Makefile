@@ -149,8 +149,6 @@ firmwares: stamp-clean-firmwares .stamp-firmwares
 	# Create version info file
 	GIT_BRANCH_ESC=$(shell $(GIT_BRANCH) | tr '/' '_'); \
 	VERSION_FILE=$(FW_TARGET_DIR)/VERSION.txt; \
-	echo "https://github.com/freifunk-berlin/firmware" > $$VERSION_FILE; \
-	echo "https://wiki.freifunk.net/Berlin:Firmware" >> $$VERSION_FILE; \
 	echo "Firmware: git branch \"$$GIT_BRANCH_ESC\", revision $(FW_REVISION)" >> $$VERSION_FILE; \
 	# add lede revision with data from config.mk \
 	LEDE_REVISION=`cd $(LEDE_DIR); $(REVISION)`; \
