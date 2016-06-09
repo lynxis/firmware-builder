@@ -22,20 +22,6 @@ uhttpd
 uhttpd-mod-ubus
 uhttpd-mod-tls
 px5g
-luci-app-olsr
-luci-app-olsr-services
-luci-app-owm
-luci-app-owm-ant
-luci-app-owm-cmd
-luci-app-owm-gui
-luci-theme-bootstrap
-# GUI addon
-luci-i18n-base-de
-luci-i18n-base-en
-luci-i18n-olsr-de
-luci-i18n-olsr-en
-luci-i18n-statistics-de
-luci-i18n-statistics-en
 
 # OLSR
 olsrd
