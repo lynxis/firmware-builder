@@ -3,16 +3,6 @@
 -wpad-mini
 wpad
 
-# Defaults
-freifunk-berlin-dhcp-defaults
-freifunk-berlin-firewall-defaults
-freifunk-berlin-freifunk-defaults
-freifunk-berlin-migration
-freifunk-berlin-network-defaults
-freifunk-berlin-olsrd-defaults
-freifunk-berlin-statistics-defaults
-freifunk-berlin-uhttpd-defaults
-community-profiles
 
 # Common
 mtr
@@ -32,8 +22,6 @@ uhttpd
 uhttpd-mod-ubus
 uhttpd-mod-tls
 px5g
-luci-app-ffwizard-berlin
-luci-mod-freifunk-ui
 luci-app-olsr
 luci-app-firewall
 luci-app-olsr-services

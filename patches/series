@@ -1,7 +1,2 @@
-001-rt2x00_allow_adhoc_and_ap.patch
-003-add_ramips-nexx-image.patch
-200-update-community-profiles.patch
 600-imagebuilder-custom-postinst-script.patch
 700-banner-info.patch
-701-luci-freifunk-policyrouting-berlin.patch
-702-luci-bootstrap-input-css.patch
