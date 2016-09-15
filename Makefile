@@ -13,7 +13,7 @@ FW_DIR=$(shell pwd)
 LEDE_DIR=$(FW_DIR)/lede
 TARGET_CONFIG=$(FW_DIR)/configs/$(TARGET).config $(FW_DIR)/configs/common.config
 IB_BUILD_DIR=$(FW_DIR)/imgbldr_tmp
-FW_TARGET_DIR=$(FW_DIR)/firmwares/$(TARGET)
+FW_TARGET_DIR=$(FW_DIR)/firmwares/$(MAINTARGET)/$(SUBTARGET)
 UMASK=umask 022
 
 # if any of the following files have been changed: clean up lede dir
