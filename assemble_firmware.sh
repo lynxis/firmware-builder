@@ -134,7 +134,7 @@ info $DEST_DIR
 info "Extract image builder $IB_FILE"
 tar xf "$IB_FILE" -C "$TEMP_DIR"
 
-for profile in "$PROFILES" ; do
+for profile in $PROFILES ; do
 	info "Building a profile for $profile"
 
 	# profiles can have a suffix. like 4mb devices get a smaller package list pro use case
