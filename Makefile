@@ -91,7 +91,6 @@ $(LEDE_DIR)/dl: $(FW_DIR)/dl
 # lede config
 $(LEDE_DIR)/.config: .stamp-feeds-updated $(TARGET_CONFIG) .stamp-build_rev $(LEDE_DIR)/dl
 	cat $(TARGET_CONFIG) >$(LEDE_DIR)/.config
-	sed -i "/^CONFIG_VERSION_NUMBER=/ s/\"$$/\+$(FW_REVISION)\"/" $(LEDE_DIR)/.config
 	$(UMASK); \
 	  $(MAKE) -C $(LEDE_DIR) defconfig
 
