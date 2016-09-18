@@ -97,7 +97,6 @@ $(LEDE_DIR)/.config: .stamp-feeds-updated $(TARGET_CONFIG) .stamp-build_rev $(LE
 # prepare lede working copy
 prepare: stamp-clean-prepared .stamp-prepared
 .stamp-prepared: .stamp-patched $(LEDE_DIR)/.config
-	sed -i 's,^# REVISION:=.*,REVISION:=$(FW_REVISION),g' $(LEDE_DIR)/include/version.mk
 	touch $@
 
 # compile lede
